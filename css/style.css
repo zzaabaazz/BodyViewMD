@@ -42,7 +42,7 @@ h3 {
 }
 
 p, li, blockquote, label {
-  font-size: 16px;
+  font-size: 25px;
   letter-spacing: 0;
   line-height: 25px;
   color: #808080;
@@ -2727,8 +2727,8 @@ header > .wrapper  a {
   margin: 0;
   top: 50%;
   left: 50%;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   line-height: 40px;
   background: #ffffff;
   transform: translate(-50%, -50%);
