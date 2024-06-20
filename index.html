@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>BodyViewMD</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Bootstrap App Landing Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Small Apps Template v1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+
+<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" width="300px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Главная
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="index.html">Главная</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown @@pages">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">О нас
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item @@team" href="team.html">Команда</a></li>
+
+            <li><a class="dropdown-item @@privacy" href="privacy-policy.html">Политика конфиденциальности</a></li>
+            <li><a class="dropdown-item @@faq" href="FAQ.html">Часто задаваемые вопросы</a></li>
+            <li><a class="dropdown-item" href="sign-in.html">Вход в личный кабинет</a></li>
+            <li><a class="dropdown-item" href="sign-up.html">Регистрация</a></li>
+
+          </ul>
+        </li>
+        
+        <li class="nav-item @@contact">
+          <a class="nav-link" href="contact.html">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--====================================
+=            Hero Section            =
+=====================================-->
+<section class="section gradient-banner">
+	<div class="shapes-container">
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
+		<div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+		<div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
+		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
+		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
+		<div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
+		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
+		<div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
+		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
+		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
+	</div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
+				<h1 class="text-white font-weight-bold mb-4">Анализатор симптомов для самодиагностики</h1>
+				<p class="text-white mb-5">Знание своего тела</p>
+				<a href="FAQ.html" class="btn btn-main-md">Download Now</a>
+			</div>
+			<div class="col-md-6 text-center order-1 order-md-2">
+				<img class="img-fluid" src="images/mobile.png" alt="screenshot">
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Hero Section  ====-->
+
+<section class="section pt-0 position-relative pull-top">
+	<div class="container">
+		<div class="rounded shadow p-5 bg-white">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+					<!-- <i class="ti-paint-bucket text-primary h1"></i> -->
+					<img class="img-fluid" src="images/Shield Check.svg" alt="screenshot" width="50px">
+					<h3 class="mt-4 text-capitalize h5 ">Точность и надежность</h3>
+					<p class="regular text-muted">Использование передовых технологий нейросетей и доступ к медицинским экспертам обеспечивает точный анализ симптомов и надежные рекомендации.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+					<!-- <i class="ti-shine text-primary h1"></i> -->
+					<img class="img-fluid" src="images/Widget.svg" alt="screenshot" width="50px">
+					<h3 class="mt-4 text-capitalize h5 ">Простой интерфейс</h3>
+					<p class="regular text-muted">Интуитивно понятный интерфейс делает процесс самодиагностики удобным и доступным для всех пользователей, независимо от уровня опыта.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
+					<!-- <i class="ti-thought text-primary h1"></i> -->
+					<img class="img-fluid" src="images/Hand Heart.svg" alt="screenshot" width="50px">
+
+					<h3 class="mt-4 text-capitalize h5 ">Высокий уровень поддержки</h3>
+					<p class="regular text-muted">Возможность получить консультацию от профессионалов дает уверенность и дополнительную поддержку в процессе самодиагностики.</p>
+					</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--==================================
+=            Feature Grid            =
+===================================-->
+<section class="feature section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 ml-auto justify-content-center">
+				<!-- Feature Mockup -->
+				<div class="image-content" data-aos="fade-right">
+					<img class="img-fluid" src="images/feature/feature-new-01.png" alt="iphone">
+				</div>
+			</div>
+			<div class="col-lg-6 mr-auto align-self-center">
+				<div class="feature-content">
+					<!-- Feature Title -->
+					<h2>Приложение, которое Вам точно понравится <a
+							href="https://themefisher.com/products/small-apps-free-app-landing-page-template/"></a></h2>
+					<!-- Feature Description -->
+					<p class="desc">Инновационное приложение, разработанное с любовь и заботой о Вас.</p>
+				</div>
+				<!-- Testimonial Quote -->
+				<div class="testimonial">
+					<p>
+						Получите точный анализ симптомов и профессиональные рекомендации для вашего здоровья прямо сейчас!
+					</p>
+					<ul class="list-inline meta">
+						<li class="list-inline-item">
+							<img src="images/testimonial/feature-testimonial-thumb.jpg" alt="">
+						</li>
+						<li class="list-inline-item">Виталия Захарова</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="feature section pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 ml-auto align-self-center">
+				<div class="feature-content">
+					<!-- Feature Title -->
+					<h2>Почему именно мы? </h2>
+					<!-- Feature Description -->
+					<p>Индивидуальный подход</p>
+				</div>
+				<!-- Testimonial Quote -->
+				<div class="testimonial">
+					<p>
+						Приложение предоставляет индивидуальные рекомендации, учитывая особенности здоровья и образа жизни каждого пользователя.
+
+					</p>
+					<ul class="list-inline meta">
+						<li class="list-inline-item">
+							<img src="images/testimonial/feature-testimonial-thumb1.jpg" alt="">
+						</li>
+						<li class="list-inline-item">Софья Нагоркина</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-6 mr-auto justify-content-center">
+				<!-- Feature mockup -->
+				<div class="image-content" data-aos="fade-left">
+					<img class="img-fluid" src="images/feature/feature-new-02.png" alt="ipad">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Feature Grid  ====-->
+
+<!--==============================
+=            Services            =
+===============================-->
+
+
+
+<section class="service section bg-gray">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="section-title">
+				<h2>Тарифы</h2>
+			</div>
+		</div>
+	</div>
+<div class="tarif">
+	<div class="pricing-table gprice-single">
+		<div class="head">
+			 <h4 class="title">Базовый</h4> 
+		</div>
+		<div class="content">
+			<div class="price">
+				<h1>0 руб.</h1>
+			</div>
+			<ul>
+				<li>Доступ к основным функциям приложения</li>
+				<li>Доступ для 1 чел.</li>
+			
+
+			</ul>
+			<div class="sign-up">
+				<a href="#" class="btn bordered radius">Оформить подписку</a>
+			</div>
+		</div>
+	</div>
+		<div class="pricing-table gprice-single">
+			<div class="head">
+				<h4 class="title">Продвинутый</h4>
+			</div>
+			<div class="content">
+				<div class="price">
+					<h1>1499 руб.</h1>
+				</div>
+				<ul>
+					<li>Доступ ко всем функциям приложения</li>
+					<li>Консультации с мед.экспертом</li>
+					<li>Выдача заключения</li>
+					<li>Оформление на 1 чел.</li>
+				</ul>
+				<div class="sign-up">
+					<a href="#" class="btn bordered radius">Оформить подписку</a>
+				</div>
+			</div>
+		</div>
+			<div class="pricing-table gprice-single">
+				<div class="head">
+					<h4 class="title">Бизнес (для спортивных клубов)</h4>
+				</div>
+				<div class="content">
+					<div class="price">
+						<h1>5999 руб.</h1>
+					</div>
+					<ul>
+						<li>Доступ ко всем функциям приложения</li>
+						<li>Консультации с мед.экспертом</li>
+						<li>Выдача заключения</li>
+						<li>Личный мед.эксперт</li>
+						<li>Оформление на всю команду</li>
+						
+					</ul>
+					<div class="sign-up">
+						<a href="#" class="btn bordered radius">Оформить подписку</a>
+					</div>
+				</div>
+			</div>
+</div>
+</section>
+
+
+
+
+
+<script>
+	// fill the month table with column headings
+  function day_title(day_name) {
+	  document.write("<div class='c-cal__col'>" + day_name + "</div>");
+	}
+	// fills the month table with numbers
+  function fill_table(month, month_length, indexMonth) {
+	  day = 1;
+	  // begin the new month table
+	  document.write("<div class='c-main c-main-" + indexMonth + "'>");
+	  //document.write("<b>"+month+" "+year+"</b>")
+  
+	  // column headings
+	  document.write("<div class='c-cal__row'>");
+		day_title("Вс");
+	  day_title("Пн");
+	  day_title("Вт");
+	  day_title("Ср");
+	  day_title("Чт");
+	  day_title("Пт");
+	  day_title("Сб");
+	  document.write("</div>");
+  
+	  // pad cells before first day of month
+	  document.write("<div class='c-cal__row'>");
+	  for (var i = 1; i < start_day; i++) {
+		if (start_day > 7) {
+		} else {
+		  document.write("<div class='c-cal__cel'></div>");
+		}
+	  }
+  
+	  // fill the first week of days
+	  for (var i = start_day; i < 8; i++) {
+		document.write(
+		  "<div data-day='2024-" +
+			indexMonth +
+			"-0" +
+			day +
+			"'class='c-cal__cel'><p>" +
+			day +
+			"</p></div>"
+		);
+		day++;
+	  }
+	  document.write("</div>");
+  
+	  // fill the remaining weeks
+	  while (day <= month_length) {
+		document.write("<div class='c-cal__row'>");
+		for (var i = 1; i <= 7 && day <= month_length; i++) {
+		  if (day >= 1 && day <= 9) {
+			document.write(
+			  "<div data-day='2022-" +
+				indexMonth +
+				"-0" +
+				day +
+				"'class='c-cal__cel'><p>" +
+				day +
+				"</p></div>"
+			);
+			day++;
+		  } else {
+			document.write(
+			  "<div data-day='2024-" +
+				indexMonth +
+				"-" +
+				day +
+				"' class='c-cal__cel'><p>" +
+				day +
+				"</p></div>"
+			);
+			day++;
+		  }
+		}
+		document.write("</div>");
+		// the first day of the next month
+		start_day = i;
+	  }
+  
+	  document.write("</div>");
+	}
+  </script>
+  <header>
+	<div class="wrapper">
+	  <div class="c-monthyear">
+	  <div class="c-month">
+		  <span id="prev" class="prev fa fa-angle-left" aria-hidden="true"></span>
+		  <div id="c-paginator">
+			<span class="c-paginator__month">Январь</span>
+			<span class="c-paginator__month">Ферваль</span>
+			<span class="c-paginator__month">Март</span>
+			<span class="c-paginator__month">Апрель</span>
+			<span class="c-paginator__month">Май</span>
+			<span class="c-paginator__month">Июнь</span>
+			<span class="c-paginator__month">Июль</span>
+			<span class="c-paginator__month">Август</span>
+			<span class="c-paginator__month">Сентябрь</span>
+			<span class="c-paginator__month">Октябрь</span>
+			<span class="c-paginator__month">Ноябрь</span>
+			<span class="c-paginator__month">Декабрь</span>
+		  </div>
+		  <span id="next" class="next fa fa-angle-right" aria-hidden="true"></span>
+		</div>
+		<span class="c-paginator__year">2024</span>
+	  </div>
+	  <div class="c-sort">
+		<a class="o-btn c-today__btn" href="javascript:;">Cегодня</a>
+	  </div>
+	</div>
+</header>
+  <div class="wrapper">
+	<div class="c-calendar">
+	  <div class="c-calendar__style c-aside">
+		<a class="c-add o-btn js-event__add" href="javascript:;">Добавить заметку <span class="fa fa-plus"></span></a>
+		<div class="c-aside__day">
+		  <span class="c-aside__num"></span> <span class="c-aside__month"></span>
+		</div>
+		<div class="c-aside__eventList">
+		</div>
+	  </div>
+	  <div class="c-cal__container c-calendar__style">
+		<script>
+		
+		// CAHNGE the below variable to the CURRENT YEAR
+		year = 2024;
+  
+		// first day of the week of the new year
+		today = new Date("January 1, " + year);
+		start_day = today.getDay() + 1;
+		fill_table("January", 31, "01");
+		fill_table("February", 28, "02");
+		fill_table("March", 31, "03");
+		fill_table("April", 30, "04");
+		fill_table("May", 31, "05");
+		fill_table("June", 30, "06");
+		fill_table("July", 31, "07");
+		fill_table("August", 31, "08");
+		fill_table("September", 30, "09");
+		fill_table("October", 31, "10");
+		fill_table("November", 30, "11");
+		fill_table("December", 31, "12");
+		</script>
+	  </div>
+	</div>
+  
+	<div class="c-event__creator c-calendar__style js-event__creator">
+	  <a href="javascript:;" class="o-btn js-event__close">CLOSE <span class="fa fa-close"></span></a>
+	  <form id="addEvent">
+		<input placeholder="Event name" type="text" name="name">
+		<input type="date" name="date">
+		<textarea placeholder="Notes" name="notes" cols="30" rows="10"></textarea>
+		<select name="tags">
+			<option value="event">Заметки</option>
+			<option value="important">Новая задача</option>
+			<option value="birthday">Срочная задача</option>
+			<option value="festivity">Конференция</option>
+		  </select>
+	  </form>
+	  <br>
+	  <a href="javascript:;" class="o-btn js-event__save">SAVE <span class="fa fa-save"></span></a>
+	</div>
+  </div>
+  <!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.core.min.js'></script><script  src="js/script.js"></script>
+  
+
+
+<section class="call-to-action-app section bg-blue">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Скачивайте наше инновационное приложение</h2>
+				<p>Позаботьтесь о своем здоровье уже сегодня. 
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<a href="" class="btn btn-rounded-icon">
+							<i class="ti-apple"></i>
+							Iphone
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="" class="btn btn-rounded-icon">
+							<i class="ti-android"></i>
+							Android
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--============================
+=            Footer            =
+=============================-->
+<footer>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+          <div class="block">
+            <a href="index.html"><img src="images/logo11.png" width="150" alt="footer-logo"></a>
+            <!-- Social Site Icons -->
+            <ul class="social-icon list-inline" >
+				<a href="https://t.me/levisan0" target="_blank">
+					<img src="/images/Telegram.svg" alt="Tg Icon" width="55">
+				  </a>
+				  <a href="https://t.me/levisan0" target="_blank">
+					<img src="/images/Vkontakte.svg" alt="Tg Icon" width="55">
+				  </a>
+			  <a href="https://t.me/levisan0" target="_blank">
+				<img src="/images/Whatsapp.svg" alt="Tg Icon" width="55">
+			  </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Мы</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="team.html">Команда</a></li>
+              <!-- <li><a href="blog.html">Часто задаваемые вопросы</a></li> -->
+              <li><a href="FAQ.html">Ваши вопросы</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Личный кабинет</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="sign-up.html">Регистрация</a></li>
+              <li><a href="sign-in.html">Вход</a></li>
+              <!-- <li><a href="blog.html">Blog</a></li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Компания</h6>
+            <!-- links -->
+            <ul>
+              <!-- <li><a href="career.html">Career</a></li> -->
+              <li><a href="contact.html">Контакты</a></li>
+              <!-- <li><a href="team.html">Investor</a></li> -->
+              <!-- <li><a href="privacy.html">Terms</a></li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Документы</h6>
+            <!-- links -->
+            <ul>
+              <!-- <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="team.html">Team</a></li> -->
+              <li><a href="privacy-policy.html">Политика конфиденциальности</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center bg-dark py-4">
+    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed by <a href="https://themefisher.com/">Vita</a></small class="text-secondary">
+  </div>
+
+	<!-- <div class="text-center bg-dark py-1">
+   <small> <p>Distributed By <a href="https://themewagon.com/">Themewagon</a></p></small class="text-secondary">
+  </div> -->
+</footer>
+
+
+  <!-- To Top -->
+  <div class="scroll-top-to">
+    <i class="ti-angle-up"></i>
+  </div>
+  
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  <!-- google map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g"></script>
+  <script src="plugins/google-map/gmap.js"></script>
+  
+  <script src="js/script.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
