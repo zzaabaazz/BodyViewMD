@@ -2729,7 +2729,7 @@ header > .wrapper  a {
   left: 50%;
   width: 60px;
   height: 60px;
-  line-height: 40px;
+  line-height: 60px;
   background: #ffffff;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
